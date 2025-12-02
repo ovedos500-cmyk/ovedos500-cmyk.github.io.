@@ -236,3 +236,15 @@ background-color:#219150 ;
 
 transform: scale(1.05);
 }
+
+
+/* عشان الموبايل */
+@media (max-width: 768px) {
+    .details-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .details-content {
+        text-align: center;
+    }
+}
