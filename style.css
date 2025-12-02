@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(27, 27, 27);
+}
+header{
+background-color: #2c3e50;
+color: white;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.links{
+ display: flex;
+gap: 20px;
+list-style: none;
+}
+
+.links a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+
+}
+.hero{
+
+height:93vh;
+width: 100%;
+background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+background-size: cover;
+background-position:center ;
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align:center ;
+color: white;
+}
+.hero h1{
+
+font-size: 50px;
+margin: 20px;
+text-shadow: 2px 2px 5px black;
+}
+.hero p{
+font-size: 22px;
+margin-bottom:30px ;
+text-shadow: 1px 1px 3px black;
+
+}
+
+.btn{
+padding:15px 30px ;
+background-color: #e74c3c;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+font-size: 18px;
+transition: 0.3s;
+}
+.btn:hover{
+background-color: #c0392b;
+transform: scale(1.1);
+}
+
+
+
+
+.container{
+  
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 1260px;
+margin: 0 auto;
+}
+.card{
+  background-color: white;
+height: 420px;
+width: 280px;
+margin: 15px;
+border-radius: 15px;
+text-align: center;
+transition: all 1s ease;
+display: flex;
+flex-direction: column;
+}
+.card-image{
+
+height: 180px;
+background-size: cover;
+margin-bottom: 10px;
+border-radius:15px 15px 0 0 ;
+}
+.car-1{
+background-image:url('./img/mcr.avif') ;
+}
+.car-2{
+background-image: url('./img/tesla.avif');
+}
+.car-3{
+    background-image: url('./img/bmw.jpg');
+}
+.car-4{
+background-image: url('./img/porche.jpg');
+
+}
+.car-5{
+background-image: url('./img/lam4.jpg');
+
+}
+.car-6{
+background-image: url('./img/fer2.jpg');
+
+}
+.car-7{
+background-image: url('./img/audi4.jpg');
+
+}
+.car-8{
+background-image: url('./img/bugat2.jpg');
+
+
+}
+
+
+.card p{
+padding:3px;
+
+}
+.card h2{
+
+    margin: 5px;
+}
+
+.card a{
+background-color: #333;
+color: white;
+padding: 15px 20px;
+display: block;
+padding: 10px 20px;
+margin: 20px 50px;
+border-radius: 5px;
+transition:  0.3s;
+text-decoration: none;
+
+margin-top: auto;
+margin-bottom: 20px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+
+
+
+.card:hover{
+background-color: rgb(62, 62, 62);
+color: white;
+cursor: pointer;
+transform: scale(1.03);
+
+}
